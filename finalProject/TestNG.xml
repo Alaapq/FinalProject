@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FinalProject">
+	
+	<test name="FinalProject Test">
+		<parameter name="browser" value="chrome" /> <!--chrome /firefox     -->
+		<classes>
+				  <class name="com.finalProject.testCases.TC_AddCustomerTest_003"/>		   
+			      <class name="com.finalProject.testCases.TC_LoginTest_001"/>
+				  <class name="com.finalProject.testCases.TC_LoginDDT_002" /> 
+		          <class name="com.finalProject.testCases.TC_EditCustomerTest_004" />
+	       	      <class name="com.finalProject.testCases.TC_AddAddressesCustomerPage_005" />
+	       	      <class name="com.finalProject.testCases.TC_DigitalDownloadsTest_011" /> 
+				  <class name="com.finalProject.testCases.TC_ContactUsTest_012" />
+	       	      <class name="com.finalProject.testCases.TC_CreateOrderDDT_009" />
+	       	      <class name="com.finalProject.testCases.TC_WishListTest_010" />
+
+		       
+		</classes>
+
+	</test>
+
+</suite>

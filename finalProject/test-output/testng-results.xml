@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T18:59:31Z" name="FinalProject" finished-at="2022-11-10T19:05:17Z" duration-ms="345908">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T18:59:31Z" name="FinalProject Test" finished-at="2022-11-10T19:05:17Z" duration-ms="345908">
+      <class name="com.finalProject.testCases.TC_CreateOrderDDT_009">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:03:51Z" name="setup" finished-at="2022-11-10T19:03:52Z" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:03:52Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:12Z" duration-ms="19840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital Storm VANQUISH 3 Custom Performance PC ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDDT -->
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:12Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:24Z" duration-ms="12067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lenovo IdeaCentre 600 All-in-One PC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDDT -->
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:24Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:36Z" duration-ms="11698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asus N551JK-XO076H Laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDDT -->
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:36Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:51Z" duration-ms="14707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP Spectre XT Pro UltraBook1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:51Z" name="tearDown" finished-at="2022-11-10T19:04:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_CreateOrderDDT_009 -->
+      <class name="com.finalProject.testCases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:49Z" name="setup" finished-at="2022-11-10T18:59:51Z" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:52Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:54Z" duration-ms="2023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr164225@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jahetAp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:54Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:55Z" duration-ms="1851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr425559@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[napasAn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:55Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:57Z" duration-ms="2028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr137319@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bAdYvyb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:57Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:59Z" duration-ms="1875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ileJiv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eaWLaLubwj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:59Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T19:00:01Z" duration-ms="2052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr112909@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tytUreg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T19:00:01Z" name="tearDown" finished-at="2022-11-10T19:00:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_LoginDDT_002 -->
+      <class name="com.finalProject.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@f14a7d4]" started-at="2022-11-10T18:59:40Z" name="setup" finished-at="2022-11-10T18:59:42Z" duration-ms="1332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@f14a7d4]" started-at="2022-11-10T18:59:42Z" name="loginTest" finished-at="2022-11-10T18:59:49Z" duration-ms="7062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@f14a7d4]" started-at="2022-11-10T18:59:49Z" name="tearDown" finished-at="2022-11-10T18:59:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_LoginTest_001 -->
+      <class name="com.finalProject.testCases.TC_AddAddressesCustomerPage_005">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:00:42Z" name="setup" finished-at="2022-11-10T19:00:43Z" duration-ms="1302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addAddressesCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:00:43Z" name="addAddressesCustomer" finished-at="2022-11-10T19:02:03Z" duration-ms="79464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddressesCustomer -->
+        <test-method signature="addAddressesIfExitsCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:02:03Z" name="addAddressesIfExitsCustomer" finished-at="2022-11-10T19:03:22Z" duration-ms="79861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddressesIfExitsCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:03:22Z" name="tearDown" finished-at="2022-11-10T19:03:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_AddAddressesCustomerPage_005 -->
+      <class name="com.finalProject.testCases.TC_DigitalDownloadsTest_011">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@2d9caaeb]" started-at="2022-11-10T19:03:22Z" name="setup" finished-at="2022-11-10T19:03:24Z" duration-ms="1390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="digitalDownloads()[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@2d9caaeb]" started-at="2022-11-10T19:03:24Z" name="digitalDownloads" finished-at="2022-11-10T19:03:39Z" duration-ms="15196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- digitalDownloads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@2d9caaeb]" started-at="2022-11-10T19:03:39Z" name="tearDown" finished-at="2022-11-10T19:03:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_DigitalDownloadsTest_011 -->
+      <class name="com.finalProject.testCases.TC_ContactUsTest_012">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@42a15bdc]" started-at="2022-11-10T19:03:39Z" name="setup" finished-at="2022-11-10T19:03:41Z" duration-ms="1580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="contactUs()[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@42a15bdc]" started-at="2022-11-10T19:03:41Z" name="contactUs" finished-at="2022-11-10T19:03:51Z" duration-ms="10415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@42a15bdc]" started-at="2022-11-10T19:03:51Z" name="tearDown" finished-at="2022-11-10T19:03:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_ContactUsTest_012 -->
+      <class name="com.finalProject.testCases.TC_AddCustomerTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@6b58b9e9]" started-at="2022-11-10T18:59:31Z" name="setup" finished-at="2022-11-10T18:59:34Z" duration-ms="2302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@6b58b9e9]" started-at="2022-11-10T18:59:34Z" name="addCustomer" finished-at="2022-11-10T18:59:40Z" duration-ms="6817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@6b58b9e9]" started-at="2022-11-10T18:59:40Z" name="tearDown" finished-at="2022-11-10T18:59:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_AddCustomerTest_003 -->
+      <class name="com.finalProject.testCases.TC_EditCustomerTest_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@29a5f4e7]" started-at="2022-11-10T19:00:01Z" name="setup" finished-at="2022-11-10T19:00:04Z" duration-ms="2353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editCustomer()[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@29a5f4e7]" started-at="2022-11-10T19:00:04Z" name="editCustomer" finished-at="2022-11-10T19:00:42Z" duration-ms="38054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@29a5f4e7]" started-at="2022-11-10T19:00:42Z" name="tearDown" finished-at="2022-11-10T19:00:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_EditCustomerTest_004 -->
+      <class name="com.finalProject.testCases.TC_WishListTest_010">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27e47833]" started-at="2022-11-10T19:04:51Z" name="setup" finished-at="2022-11-10T19:04:52Z" duration-ms="1491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewAccount()[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27e47833]" started-at="2022-11-10T19:04:52Z" name="addNewAccount" finished-at="2022-11-10T19:05:17Z" duration-ms="24847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27e47833]" started-at="2022-11-10T19:05:17Z" name="tearDown" finished-at="2022-11-10T19:05:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.finalProject.testCases.TC_WishListTest_010 -->
+    </test> <!-- FinalProject Test -->
+  </suite> <!-- FinalProject -->
+</testng-results>
