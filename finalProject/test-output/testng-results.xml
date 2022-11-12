@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-10T18:59:31Z" name="FinalProject" finished-at="2022-11-10T19:05:17Z" duration-ms="345908">
+  <suite started-at="2022-11-11T16:56:46Z" name="FinalProject" finished-at="2022-11-11T17:03:17Z" duration-ms="391625">
     <groups>
     </groups>
-    <test started-at="2022-11-10T18:59:31Z" name="FinalProject Test" finished-at="2022-11-10T19:05:17Z" duration-ms="345908">
+    <test started-at="2022-11-11T16:56:46Z" name="FinalProject Test" finished-at="2022-11-11T17:03:17Z" duration-ms="391625">
       <class name="com.finalProject.testCases.TC_CreateOrderDDT_009">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:03:51Z" name="setup" finished-at="2022-11-10T19:03:52Z" duration-ms="1355" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@6f6745d6]" started-at="2022-11-11T17:01:41Z" name="setup" finished-at="2022-11-11T17:01:44Z" duration-ms="2584" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:03:52Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:12Z" duration-ms="19840" status="PASS">
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@6f6745d6]" started-at="2022-11-11T17:01:44Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-11T17:02:04Z" duration-ms="19760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDDT -->
-        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:12Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:24Z" duration-ms="12067" status="PASS">
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@6f6745d6]" started-at="2022-11-11T17:02:04Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-11T17:02:17Z" duration-ms="13382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDDT -->
-        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:24Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:36Z" duration-ms="11698" status="PASS">
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@6f6745d6]" started-at="2022-11-11T17:02:17Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-11T17:02:30Z" duration-ms="12878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDDT -->
-        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:36Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-10T19:04:51Z" duration-ms="14707" status="PASS">
+        <test-method signature="createDDT(java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@6f6745d6]" started-at="2022-11-11T17:02:30Z" name="createDDT" data-provider="SearchData" finished-at="2022-11-11T17:02:46Z" duration-ms="15218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,13 +82,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@44a59da3]" started-at="2022-11-10T19:04:51Z" name="tearDown" finished-at="2022-11-10T19:04:51Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_CreateOrderDDT_009@6f6745d6]" started-at="2022-11-11T17:02:46Z" name="tearDown" finished-at="2022-11-11T17:02:46Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_CreateOrderDDT_009 -->
       <class name="com.finalProject.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:49Z" name="setup" finished-at="2022-11-10T18:59:51Z" duration-ms="2055" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:07Z" name="setup" finished-at="2022-11-11T16:57:09Z" duration-ms="2127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:52Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:54Z" duration-ms="2023" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:10Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-11T16:57:13Z" duration-ms="3081" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:54Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:55Z" duration-ms="1851" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:13Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-11T16:57:15Z" duration-ms="2340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:55Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:57Z" duration-ms="2028" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:15Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-11T16:57:18Z" duration-ms="2501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:57Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T18:59:59Z" duration-ms="1875" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:18Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-11T16:57:20Z" duration-ms="2487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T18:59:59Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-10T19:00:01Z" duration-ms="2052" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:20Z" name="loginDDT" data-provider="LoginData" finished-at="2022-11-11T16:57:23Z" duration-ms="2310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,13 +204,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@52e7a6b2]" started-at="2022-11-10T19:00:01Z" name="tearDown" finished-at="2022-11-10T19:00:01Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_LoginDDT_002@79c97cb]" started-at="2022-11-11T16:57:23Z" name="tearDown" finished-at="2022-11-11T16:57:23Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_LoginDDT_002 -->
       <class name="com.finalProject.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@f14a7d4]" started-at="2022-11-10T18:59:40Z" name="setup" finished-at="2022-11-10T18:59:42Z" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@29a5f4e7]" started-at="2022-11-11T16:56:58Z" name="setup" finished-at="2022-11-11T16:57:00Z" duration-ms="2005" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,17 +221,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@f14a7d4]" started-at="2022-11-10T18:59:42Z" name="loginTest" finished-at="2022-11-10T18:59:49Z" duration-ms="7062" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@29a5f4e7]" started-at="2022-11-11T16:57:00Z" name="loginTest" finished-at="2022-11-11T16:57:07Z" duration-ms="6791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@f14a7d4]" started-at="2022-11-10T18:59:49Z" name="tearDown" finished-at="2022-11-10T18:59:49Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_LoginTest_001@29a5f4e7]" started-at="2022-11-11T16:57:07Z" name="tearDown" finished-at="2022-11-11T16:57:07Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_LoginTest_001 -->
       <class name="com.finalProject.testCases.TC_AddAddressesCustomerPage_005">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:00:42Z" name="setup" finished-at="2022-11-10T19:00:43Z" duration-ms="1302" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@42a15bdc]" started-at="2022-11-11T16:58:07Z" name="setup" finished-at="2022-11-11T16:58:09Z" duration-ms="1664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -242,21 +242,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addAddressesCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:00:43Z" name="addAddressesCustomer" finished-at="2022-11-10T19:02:03Z" duration-ms="79464" status="PASS">
+        <test-method signature="addAddressesCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@42a15bdc]" started-at="2022-11-11T16:58:09Z" name="addAddressesCustomer" finished-at="2022-11-11T16:59:39Z" duration-ms="90095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAddressesCustomer -->
-        <test-method signature="addAddressesIfExitsCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:02:03Z" name="addAddressesIfExitsCustomer" finished-at="2022-11-10T19:03:22Z" duration-ms="79861" status="PASS">
+        <test-method signature="addAddressesIfExitsCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@42a15bdc]" started-at="2022-11-11T16:59:39Z" name="addAddressesIfExitsCustomer" finished-at="2022-11-11T17:01:07Z" duration-ms="88803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAddressesIfExitsCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@79c97cb]" started-at="2022-11-10T19:03:22Z" name="tearDown" finished-at="2022-11-10T19:03:22Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_AddAddressesCustomerPage_005@42a15bdc]" started-at="2022-11-11T17:01:07Z" name="tearDown" finished-at="2022-11-11T17:01:07Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_AddAddressesCustomerPage_005 -->
       <class name="com.finalProject.testCases.TC_DigitalDownloadsTest_011">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@2d9caaeb]" started-at="2022-11-10T19:03:22Z" name="setup" finished-at="2022-11-10T19:03:24Z" duration-ms="1390" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@44a59da3]" started-at="2022-11-11T17:01:07Z" name="setup" finished-at="2022-11-11T17:01:10Z" duration-ms="2311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,17 +267,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="digitalDownloads()[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@2d9caaeb]" started-at="2022-11-10T19:03:24Z" name="digitalDownloads" finished-at="2022-11-10T19:03:39Z" duration-ms="15196" status="PASS">
+        <test-method signature="digitalDownloads()[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@44a59da3]" started-at="2022-11-11T17:01:10Z" name="digitalDownloads" finished-at="2022-11-11T17:01:30Z" duration-ms="20687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- digitalDownloads -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@2d9caaeb]" started-at="2022-11-10T19:03:39Z" name="tearDown" finished-at="2022-11-10T19:03:39Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_DigitalDownloadsTest_011@44a59da3]" started-at="2022-11-11T17:01:30Z" name="tearDown" finished-at="2022-11-11T17:01:30Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_DigitalDownloadsTest_011 -->
       <class name="com.finalProject.testCases.TC_ContactUsTest_012">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@42a15bdc]" started-at="2022-11-10T19:03:39Z" name="setup" finished-at="2022-11-10T19:03:41Z" duration-ms="1580" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@27e47833]" started-at="2022-11-11T17:01:30Z" name="setup" finished-at="2022-11-11T17:01:33Z" duration-ms="2417" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,17 +288,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactUs()[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@42a15bdc]" started-at="2022-11-10T19:03:41Z" name="contactUs" finished-at="2022-11-10T19:03:51Z" duration-ms="10415" status="PASS">
+        <test-method signature="contactUs()[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@27e47833]" started-at="2022-11-11T17:01:33Z" name="contactUs" finished-at="2022-11-11T17:01:41Z" duration-ms="8523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@42a15bdc]" started-at="2022-11-10T19:03:51Z" name="tearDown" finished-at="2022-11-10T19:03:51Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_ContactUsTest_012@27e47833]" started-at="2022-11-11T17:01:41Z" name="tearDown" finished-at="2022-11-11T17:01:41Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_ContactUsTest_012 -->
       <class name="com.finalProject.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@6b58b9e9]" started-at="2022-11-10T18:59:31Z" name="setup" finished-at="2022-11-10T18:59:34Z" duration-ms="2302" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@52e7a6b2]" started-at="2022-11-11T16:56:46Z" name="setup" finished-at="2022-11-11T16:56:49Z" duration-ms="3360" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,17 +309,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@6b58b9e9]" started-at="2022-11-10T18:59:34Z" name="addCustomer" finished-at="2022-11-10T18:59:40Z" duration-ms="6817" status="PASS">
+        <test-method signature="addCustomer()[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@52e7a6b2]" started-at="2022-11-11T16:56:49Z" name="addCustomer" finished-at="2022-11-11T16:56:58Z" duration-ms="9062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@6b58b9e9]" started-at="2022-11-10T18:59:40Z" name="tearDown" finished-at="2022-11-10T18:59:40Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_AddCustomerTest_003@52e7a6b2]" started-at="2022-11-11T16:56:58Z" name="tearDown" finished-at="2022-11-11T16:56:58Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_AddCustomerTest_003 -->
       <class name="com.finalProject.testCases.TC_EditCustomerTest_004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@29a5f4e7]" started-at="2022-11-10T19:00:01Z" name="setup" finished-at="2022-11-10T19:00:04Z" duration-ms="2353" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@2d9caaeb]" started-at="2022-11-11T16:57:23Z" name="setup" finished-at="2022-11-11T16:57:25Z" duration-ms="2009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,17 +330,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="editCustomer()[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@29a5f4e7]" started-at="2022-11-10T19:00:04Z" name="editCustomer" finished-at="2022-11-10T19:00:42Z" duration-ms="38054" status="PASS">
+        <test-method signature="editCustomer()[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@2d9caaeb]" started-at="2022-11-11T16:57:25Z" name="editCustomer" finished-at="2022-11-11T16:58:07Z" duration-ms="42115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@29a5f4e7]" started-at="2022-11-10T19:00:42Z" name="tearDown" finished-at="2022-11-10T19:00:42Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_EditCustomerTest_004@2d9caaeb]" started-at="2022-11-11T16:58:07Z" name="tearDown" finished-at="2022-11-11T16:58:07Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.finalProject.testCases.TC_EditCustomerTest_004 -->
       <class name="com.finalProject.testCases.TC_WishListTest_010">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27e47833]" started-at="2022-11-10T19:04:51Z" name="setup" finished-at="2022-11-10T19:04:52Z" duration-ms="1491" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27508c5d]" started-at="2022-11-11T17:02:46Z" name="setup" finished-at="2022-11-11T17:02:47Z" duration-ms="1795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -351,11 +351,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewAccount()[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27e47833]" started-at="2022-11-10T19:04:52Z" name="addNewAccount" finished-at="2022-11-10T19:05:17Z" duration-ms="24847" status="PASS">
+        <test-method signature="addNewAccount()[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27508c5d]" started-at="2022-11-11T17:02:47Z" name="addNewAccount" finished-at="2022-11-11T17:03:17Z" duration-ms="29964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27e47833]" started-at="2022-11-10T19:05:17Z" name="tearDown" finished-at="2022-11-10T19:05:17Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.finalProject.testCases.TC_WishListTest_010@27508c5d]" started-at="2022-11-11T17:03:17Z" name="tearDown" finished-at="2022-11-11T17:03:17Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

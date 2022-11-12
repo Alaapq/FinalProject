@@ -148,7 +148,7 @@ int choiceLstOfProcessor=1;
 		//selAccount.sendKeys("Current");
 		try {
 			Select se= new Select (selCountryId);
-			List<String> orginal = new ArrayList<String>();
+			List<String> orginal = new ArrayList<>();
 			List <WebElement> ops=se.getOptions();
 			for (WebElement e:ops) {
 				orginal.add(e.getText());
@@ -169,7 +169,7 @@ int choiceLstOfProcessor=1;
 		//selAccount.sendKeys("Current");
 		try {
 			Select se= new Select (selStateProvinceId);
-			List<String> orginal = new ArrayList<String>();
+			List<String> orginal = new ArrayList<>();
 			List <WebElement> ops=se.getOptions();
 			for (WebElement e:ops) {
 				orginal.add(e.getText());
@@ -198,7 +198,7 @@ int choiceLstOfProcessor=1;
 		//selAccount.sendKeys("Current");
 		try {
 			Select se= new Select (lstOfRAM);
-			List<String> orginal = new ArrayList<String>();
+			List<String> orginal = new ArrayList<>();
 			List <WebElement> ops=se.getOptions();
 			for (WebElement e:ops) {
 				orginal.add(e.getText());
@@ -217,7 +217,7 @@ int choiceLstOfProcessor=1;
 		//selAccount.sendKeys("Current");
 		try {
 			Select se= new Select (lstOfProcessor);
-			List<String> orginal = new ArrayList<String>();
+			List<String> orginal = new ArrayList<>();
 			List <WebElement> ops=se.getOptions();
 			for (WebElement e:ops) {
 				orginal.add(e.getText());

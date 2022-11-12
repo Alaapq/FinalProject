@@ -4,63 +4,13 @@
   <test thread-count="5" name="FinalProject Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.finalProject.testCases.TC_EditCustomerTest_004">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="editCustomer"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_EditCustomerTest_004 -->
-      <class name="com.finalProject.testCases.TC_ContactUsTest_012">
-        <methods>
-          <include name="contactUs"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_ContactUsTest_012 -->
-      <class name="com.finalProject.testCases.TC_LoginDDT_002">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_LoginDDT_002 -->
-      <class name="com.finalProject.testCases.TC_LoginTest_001">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_LoginTest_001 -->
-      <class name="com.finalProject.testCases.TC_DigitalDownloadsTest_011">
-        <methods>
-          <include name="digitalDownloads"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_DigitalDownloadsTest_011 -->
       <class name="com.finalProject.testCases.TC_CreateOrderDDT_009">
         <methods>
-          <include name="createDDT"/>
+          <include name="createDDT" invocation-numbers="1 2 3"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.finalProject.testCases.TC_CreateOrderDDT_009 -->
-      <class name="com.finalProject.testCases.TC_AddAddressesCustomerPage_005">
-        <methods>
-          <include name="tearDown"/>
-          <include name="addAddressesIfExitsCustomer"/>
-          <include name="setup"/>
-          <include name="addAddressesCustomer"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_AddAddressesCustomerPage_005 -->
-      <class name="com.finalProject.testCases.TC_WishListTest_010">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="addNewAccount"/>
-        </methods>
-      </class> <!-- com.finalProject.testCases.TC_WishListTest_010 -->
     </classes>
   </test> <!-- FinalProject Test(failed) -->
 </suite> <!-- Failed suite [FinalProject] -->

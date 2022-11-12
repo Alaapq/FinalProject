@@ -362,7 +362,7 @@ public class AddAddressesCustomerPage {
 		//selAccount.sendKeys("Current");
 		try {
 			Select se= new Select (selCountryId);
-			List<String> orginal = new ArrayList<String>();
+			List<String> orginal = new ArrayList<>();
 			List <WebElement> ops=se.getOptions();
 			for (WebElement e:ops) {
 				orginal.add(e.getText());
@@ -382,7 +382,7 @@ public class AddAddressesCustomerPage {
 		//selAccount.sendKeys("Current");
 		try {
 			Select se= new Select (selStateProvinceId);
-			List<String> orginal = new ArrayList<String>();
+			List<String> orginal = new ArrayList<>();
 			List <WebElement> ops=se.getOptions();
 			for (WebElement e:ops) {
 				orginal.add(e.getText());

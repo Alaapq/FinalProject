@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
@@ -15,6 +16,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
 import com.finalProject.utilities.ReadAndWriteConfig;;
 public class BaseClass {
 
@@ -39,14 +41,14 @@ public class BaseClass {
 				 System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+readconfig.getChromePath());
 					String downloadFilepath = "downloads";
 					File file = new File(downloadFilepath);
-					
-					HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+
+					HashMap<String, Object> chromePrefs = new HashMap<>();
 					chromePrefs.put("profile.default_content_settings.popups", 0);
 					chromePrefs.put("download.default_directory", file.getAbsolutePath());
 					ChromeOptions options = new ChromeOptions();
 					options.setExperimentalOption("prefs", chromePrefs);
-				 
-				 
+
+
 				 driver=new ChromeDriver(options);
 
 			}else if (br.equals("firefox")) {
@@ -62,6 +64,8 @@ public class BaseClass {
 			driver.get(baseUrl);
 
 	}
+
+
 
 	@AfterClass
 	public void tearDown() {
@@ -94,11 +98,11 @@ public class BaseClass {
 		  return generatedstring;
 
 	}
-	
+
 	public int parseToInteger(String target) {
 		int dim;
 		try{
-			
+
 			 dim = Integer.parseInt(target);
 		}catch (Exception e) {
 			// TODO: handle exception
@@ -107,20 +111,38 @@ public class BaseClass {
 		}
 		  return dim;
 	}
-	
-	
 
-	 public String getMounthStatement (String mounth) {
+	public String getMounthStatement (String mounth) {
 		 String[] mounths=new String[] {"January","February","March","April","May","June","July","August","September","October","November","December"};
 		  int targetMounth= Integer.parseInt(mounth);
 		   return mounths[targetMounth-1];
 	 }
 
 
+	public void deleteAllFilesFromDownloads() {
+       String directory = "downloads"; // If download is in IDE project folder
+		File file = new File(directory);
+		String[] currentFiles;
+		if (file.isDirectory()) {
+			currentFiles = file.list();
+			for (String currentFile : currentFiles) {
+				File myFile = new File(file, currentFile);
+				myFile.delete();
+			}
+		}
+	}
 
-
-
-
-
+	public void deleteAllFilesFromScreenshots() {
+	       String directory = "Screenshots"; // If download is in IDE project folder
+			File file = new File(directory);
+			String[] currentFiles;
+			if (file.isDirectory()) {
+				currentFiles = file.list();
+				for (String currentFile : currentFiles) {
+					File myFile = new File(file, currentFile);
+					myFile.delete();
+				}
+			}
+		}
 
 }

@@ -4,31 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.util.CellUtil;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import java.io.FileInputStream;
-import java.io.IOException;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
@@ -36,6 +13,7 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.util.CellUtil;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -114,13 +92,13 @@ public class XLUtils {
 		fi.close();
 		fo.close();
 	}
-	
-	
-	
-	
+
+
+
+
 	public static void readr() throws IOException {
 		//Path of the excel file
-		
+
 		FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+ "/src/test/java/com/finalProject/testData/DemoFile.xlsx");
 		//Creating a workbook
 		XSSFWorkbook workbook = new XSSFWorkbook(fs);
@@ -140,9 +118,9 @@ public class XLUtils {
 		//String cellval = cell.getStringCellValue();
 		//System.out.println(cellval);
 	}
-	
 
-	
+
+
 	public static void writer(String path,String st,int rowTarget ,int cellTarget,int color ) throws IOException {
 		FileInputStream fs = new FileInputStream(path);
 		Workbook wb = new XSSFWorkbook(fs);
@@ -157,11 +135,11 @@ public class XLUtils {
 		   if (color ==0) {
 			   style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
 		   }else {
-			   style.setFillForegroundColor(IndexedColors.RED.getIndex()); 
+			   style.setFillForegroundColor(IndexedColors.RED.getIndex());
 		   }
-		  
+
 		   style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-		  
+
 		cell.setCellStyle(style);
 		 CellUtil.setAlignment(cell, HorizontalAlignment.CENTER);
 		//}
@@ -170,9 +148,44 @@ public class XLUtils {
 		wb.write(fos);
 		fos.close();
 		}
+
+
+	public static void clearLoginData(String path) throws IOException {
+		FileInputStream fs = new FileInputStream(path);
+		Workbook wb = new XSSFWorkbook(fs);
+		Sheet sheet1 = wb.getSheetAt(0);
+		int lastRow = sheet1.getLastRowNum();
+		for(int i=1; i<=lastRow; i++){
+		Row row = sheet1.getRow(i);
+		Cell cell = row.createCell(2);
+		cell.setCellValue(Cell.CELL_TYPE_BLANK);
+		cell.setCellValue("");
+	}
+		 
+
+		FileOutputStream fos = new FileOutputStream(path);
+		wb.write(fos);
+		fos.close();
+		}
+
 	
-	
-	
+	public static void clearSearchData(String path) throws IOException {
+		FileInputStream fs = new FileInputStream(path);
+		Workbook wb = new XSSFWorkbook(fs);
+		Sheet sheet1 = wb.getSheetAt(0);
+		int lastRow = sheet1.getLastRowNum();
+		for(int i=1; i<=lastRow; i++){
+		Row row = sheet1.getRow(i);
+		Cell cell = row.createCell(1);
+		cell.setCellValue(Cell.CELL_TYPE_BLANK);
+		cell.setCellValue("");
+	}
+		 
+
+		FileOutputStream fos = new FileOutputStream(path);
+		wb.write(fos);
+		fos.close();
+		}
 
 
 }

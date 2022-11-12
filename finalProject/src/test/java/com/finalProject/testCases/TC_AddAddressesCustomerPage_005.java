@@ -125,7 +125,7 @@ public class TC_AddAddressesCustomerPage_005 extends BaseClass{
 				  // if errors were show
 
 				  boolean rr= editNew.chekError();
-				 
+
 				  if(rr) {
 				   Assert.assertTrue(true);
 				 Thread.sleep(1000);

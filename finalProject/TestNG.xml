@@ -6,7 +6,7 @@
 	<test name="FinalProject Test">
 		<parameter name="browser" value="chrome" /> <!--chrome /firefox     -->
 		<classes>
-				  <class name="com.finalProject.testCases.TC_AddCustomerTest_003"/>		   
+				  <class name="com.finalProject.testCases.TC_AddCustomerTest_003"/>		
 			      <class name="com.finalProject.testCases.TC_LoginTest_001"/>
 				  <class name="com.finalProject.testCases.TC_LoginDDT_002" /> 
 		          <class name="com.finalProject.testCases.TC_EditCustomerTest_004" />

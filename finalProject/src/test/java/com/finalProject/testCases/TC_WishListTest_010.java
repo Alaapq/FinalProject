@@ -1,7 +1,9 @@
 package com.finalProject.testCases;
 
 import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.Test;
+
 import com.finalProject.pageObject.LoginPage;
 import com.finalProject.pageObject.ShoppingCartPage;
 import com.finalProject.pageObject.WishListPage;

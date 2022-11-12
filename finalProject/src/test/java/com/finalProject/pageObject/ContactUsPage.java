@@ -18,50 +18,50 @@ public class ContactUsPage extends BaseClass{
 		PageFactory.initElements(rdriver,this);
 	}
 
-	
+
 	@FindBy(how = How.XPATH, using ="/html[1]/body[1]/div[6]/div[4]/div[1]/div[1]/ul/li[6]/a")
 	@CacheLookup
 	WebElement lnkContUs;
-	
-	
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"enquiry\"]")
 	@CacheLookup
 	WebElement txtEnquiry;
 
-	
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"button-1 contact-us-button\"]")
 	@CacheLookup
 	WebElement btnSend;
-	
-	
-	
+
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"topic-block-body\"]")
 	@CacheLookup
 	WebElement resivedEnquiry;
 
 
-	
+
 	public void clicklnkContUs() {
-		lnkContUs.click(); 
+		lnkContUs.click();
 	}
-	
-	
+
+
 	public void setEnquiry() {
-		
+
 		for(int i=0;i<5;i++) {
 			txtEnquiry.sendKeys(randomestring(7));
 		}
 
 	}
-	
-	
-	public void submitBtnSend() {
-		btnSend.click(); 
-	}
-	
 
-	
-	
+
+	public void submitBtnSend() {
+		btnSend.click();
+	}
+
+
+
+
 
 	public boolean chekIfAppearResult() {
 		try {
@@ -74,7 +74,7 @@ public class ContactUsPage extends BaseClass{
 		}
 		return false;
 	}
-	
-	
+
+
 
 }

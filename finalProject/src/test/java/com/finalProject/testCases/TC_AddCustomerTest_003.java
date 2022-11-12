@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.finalProject.pageObject.AddCustomerPage;
+import com.finalProject.utilities.XLUtils;
 
 public class TC_AddCustomerTest_003 extends BaseClass{
 
@@ -14,6 +15,17 @@ public class TC_AddCustomerTest_003 extends BaseClass{
   @Test
   public void addCustomer() throws InterruptedException, IOException {
 
+	  
+	  try {
+		  deleteAllFilesFromDownloads();
+		  deleteAllFilesFromScreenshots();
+		  XLUtils.clearLoginData(pathLoginData);
+		  XLUtils. clearSearchData(pathSearchData);
+	} catch (Exception e) {
+		System.out.println(e.getMessage());
+	}
+
+	 
 	  AddCustomerPage  addcust = new AddCustomerPage(driver);
 
 	  addcust.clickAddNewCustomer();

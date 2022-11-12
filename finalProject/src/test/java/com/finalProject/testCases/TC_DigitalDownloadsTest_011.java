@@ -1,8 +1,11 @@
 package com.finalProject.testCases;
 
 import static org.testng.Assert.assertEquals;
+
 import java.io.IOException;
+
 import org.testng.annotations.Test;
+
 import com.finalProject.pageObject.DigitalDownloadsPage;
 import com.finalProject.pageObject.EmailAFriendPage;
 import com.finalProject.pageObject.LoginPage;
@@ -27,7 +30,7 @@ public class TC_DigitalDownloadsTest_011  extends BaseClass{
 			  digitalDown.clickPositionOfItem(i);
 			  Thread.sleep(2000);
 			  digitalDown.clickLnkDownload();
-			  
+
 			  if (digitalDown.chkrangePrice()) {
 				  digitalDown.setValidPrice();
 			  }
@@ -43,25 +46,25 @@ public class TC_DigitalDownloadsTest_011  extends BaseClass{
 					 emailFriend.setPersonalMessage();
 					 Thread.sleep(2000);
 					 emailFriend.clickBtnSendEmail();
-					 // continue after test 
-					 
+					 // continue after test
+
 					 if (emailFriend.chekIfAppearResult()) {
 						 captureScreen(driver,"TC_DigitalDownloadsTest_011 ");
-						 assertEquals(true, true);  
+						 assertEquals(true, true);
 
 					 }else {
-						 assertEquals(true, false);   
+						 assertEquals(true, false);
 						 captureScreen(driver,"TC_DigitalDownloadsTest_011 ");
 					 }
 
 				 }else {
-					 assertEquals(true, false); 	 
+					 assertEquals(true, false);
 				 }
-				 
+
 				 break;
 		  }
 
-	
+
   }
 
 

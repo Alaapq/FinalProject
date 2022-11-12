@@ -1,6 +1,7 @@
 package com.finalProject.pageObject;
 
 import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -29,47 +30,47 @@ public class DigitalDownloadsPage extends BaseClass{
 	@CacheLookup
 	//WebElement selAccount;
 	List<WebElement> items;
-	
 
-	
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"button-2 download-sample-button\"]")
 	@CacheLookup
 	WebElement lnkDownload;
-	
-	
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"price-range\"]")
 	@CacheLookup
 	WebElement rangePrice;
-	
-	
-	
-	
+
+
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"price-range\"]")
 	@CacheLookup
 	WebElement labPriceRange;
-	 
-	                                    
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"enter-price-input\"]")
 	@CacheLookup
 	WebElement txtValidPrice;
-	
-	
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"button-1 add-to-cart-button\"]")
 	@CacheLookup
 	WebElement lnkAddCart;
-	
-	
+
+
 	@FindBy(how = How.XPATH, using ="//*[@class=\"button-2 email-a-friend-button\"]")
 	@CacheLookup
 	WebElement lnkEmailFriend;
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
 	public void clickLnkDigDown() {
 		lnkDigDown.click();
 	}
@@ -77,32 +78,32 @@ public class DigitalDownloadsPage extends BaseClass{
 	public int getItemsLength() {
      return items.size();
 	}
-	
+
 	public void clickPositionOfItem(int position) {
 		items.get(position).click();
 	}
-	
+
 	public void clickValidPrice() {
 		txtValidPrice.click();
 	}
-	
-	
-	
+
+
+
 	public void setValidPrice() {
-	
+
 		//String st= txtValidPrice.getText();//The price must be from $0.50 to $100.00
-		
+
 		String st=labPriceRange.getText();
 		String target =filterValidPrice(st);
 		txtValidPrice.clear();
 		txtValidPrice.sendKeys(target+".00");
 	}
-	
+
 	public String filterValidPrice(String st) {
 		System.out.println("st"+st);
 		String[] parts = st.split("from");
 		String part2 = parts[1].replace("$", "").trim();
-	
+
 		String[] part4=part2.toString().split("to");
 		//String part5 = part4[0].trim();
 		String part6 = part4[1].trim();
@@ -111,8 +112,8 @@ public class DigitalDownloadsPage extends BaseClass{
 		int length = String.valueOf(bigBord).length()-1;
 		return randomeNumrical(length);
 	}
-	
-	
+
+
 	public boolean chkrangePrice() {
 
 		try {
@@ -125,20 +126,20 @@ public class DigitalDownloadsPage extends BaseClass{
 		}
 		return false;
 	}
-	
-	
+
+
 	public void clickLnkDownload() {
 		lnkDownload.click(); // save @ file in baseclass
 	}
-	
+
 	public void clickLnkAddCart() {
 		lnkAddCart.click();
 	}
-	
+
 	public void clicklnkEmailFriend() {
 		lnkEmailFriend.click();
 	}
-	
-	
+
+
 
 }

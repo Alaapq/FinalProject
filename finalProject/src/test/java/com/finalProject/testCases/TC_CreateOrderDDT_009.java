@@ -1,9 +1,12 @@
 package com.finalProject.testCases;
 
 import static org.testng.Assert.assertEquals;
+
 import java.io.IOException;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import com.finalProject.pageObject.CreateOrderDDT;
 import com.finalProject.pageObject.LoginPage;
 import com.finalProject.utilities.XLUtils;
@@ -45,7 +48,7 @@ public class TC_CreateOrderDDT_009 extends BaseClass{
 						   Thread.sleep(5000);
 						   driver.navigate().back();
 						   driver.navigate().back();
-						   
+
 					   }else {
 
 					   }
@@ -88,7 +91,7 @@ public class TC_CreateOrderDDT_009 extends BaseClass{
 			  if (st!=null) {
 				  logindata [i-1][j]=st;
 			  }
-			 
+
 		  }
 	  }
 	  return logindata;
